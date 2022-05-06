@@ -51,7 +51,7 @@ SELECT
   name, gender,
   SUM(number) AS total
 FROM
-  `bigquery-public-data.usa_names.usa_1910_2013`
+  bigquery-public-data.usa_names.usa_1910_2013
 GROUP BY
   name, gender
 ORDER BY
@@ -148,7 +148,7 @@ Now that you've loaded data into your table, you can run queries against it. The
 #### 2 - Copy and paste the following query into the Query editor. This query retrieves the top 5 baby names for US males in 2014.
 
 ```
-    SELECT
+SELECT
  name, count
 FROM
  babynames.names_2014
