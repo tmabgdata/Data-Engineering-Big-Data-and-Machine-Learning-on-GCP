@@ -28,17 +28,17 @@ In this task, you load a public dataset, USA Names, into BigQuery, then query th
 
 #### 1 - In the left pane, click ADD DATA > Explore public datasets.
 
-![ADD DATA](.\images\1_add_data.png)
+![ADD DATA](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/1_add_data.png?raw=true)
 
 #### 2 - In the searchbox, type USA Names then press ENTER.
 
 #### 3 - Click on the USA Names tile you see in the search results.
 
-![USA Names](.\images\3_select_dataset.png)
+![USA Names](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/3_select_dataset.png?raw=true)
 
 #### 4 - Click View dataset.
 
-![View Dataset](.\images\4_select_dataset_usa_names.png)
+![View Dataset](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/4_select_dataset_usa_names.png?raw=true)
 
 ### Query the USA Names dataset
 
@@ -62,11 +62,11 @@ LIMIT
 
 #### 2 - In the upper right of the window, view the query validator.
 
-![View Validator](.\images\2_2_view_validator.png)
+![View Validator](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/2_2_view_validator.png?raw=true)
 
 #### 3 - Click Run.
 
-![RUM](.\images\2_3_click_RUM.png)
+![RUM](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/2_3_click_RUM.png?raw=true)
 
 ## Task 2. Create a custom table
 
@@ -94,11 +94,11 @@ Datasets help you control access to tables and views in a project. This lab uses
 
 #### 1 - Back in the Cloud Console, in the left pane, in the Explorer section, click your Project ID (it will start with qwiklabs).
 
-![EXPLORER](.\images\3_1_explorer.png)
+![EXPLORER](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/3_1_explorer.png?raw=true)
 
 #### 2 - Click on the three dots next to your project ID and then click Create dataset.
 
-![CREATE DATASET](.\images\3_2_create_dataset.png)
+![CREATE DATASET](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/3_2_create_dataset.png?raw=true)
 
 #### 3 - On the Create dataset page:
 
@@ -137,7 +137,7 @@ Use the default values for all settings unless otherwise indicated.
 
 #### 2 - In the details pane, click the Preview tab.
 
-![View Table](.\images\4_2_preview_table.png)
+![View Table](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/4_2_preview_table.png?raw=true)
 
 ## Task 5. Query the table
 
@@ -160,7 +160,7 @@ ORDER BY count DESC LIMIT 5
 
 #### 3 - Click Run. The results are displayed below the query window.
 
-![Query Results](.\images\5_3_run.png)
+![Query Results](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20Exploring%20a%20BigQuery%20Public%20Dataset/images/5_3_run.png?raw=true)
 
 ---
 
