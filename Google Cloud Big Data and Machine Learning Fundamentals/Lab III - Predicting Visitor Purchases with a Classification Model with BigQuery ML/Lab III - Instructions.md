@@ -335,7 +335,7 @@ Next, create a new BigQuery dataset which will also store your ML models.
 
 1. In the left pane, click on your project name, and then click on the View action icon (three dots) and select **Create Dataset**.
 
-![TASK_3_1](images\TASK_3_1.png)
+![TASK_3_1](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20III%20-%20Predicting%20Visitor%20Purchases%20with%20a%20Classification%20Model%20with%20BigQuery%20ML/images/TASK_3_1.png?raw=true)
 
 2. In the **Create Dataset** dialog:
 
@@ -437,7 +437,7 @@ For classification problems in ML, you want to minimize the False Positive Rate 
 
 This relationship is visualized with a ROC (Receiver Operating Characteristic) curve like the one shown here, where you try to maximize the area under the curve or AUC:
 
-![TASK_5](images\TASK_5.png)
+![TASK_5](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20III%20-%20Predicting%20Visitor%20Purchases%20with%20a%20Classification%20Model%20with%20BigQuery%20ML/images/TASK_5.png?raw=true)
 
 In BigQuery ML, roc_auc is simply a queryable field when evaluating your trained ML model.
 
@@ -729,7 +729,7 @@ Your model will now output the predictions it has for those July 2017 ecommerce 
 
 - predicted_will_buy_on_return_visit_probs.prob: the confidence the model has in it's prediction (1 = 100%)
 
-![TASK_7](images\TASK_7.png)
+![TASK_7](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20III%20-%20Predicting%20Visitor%20Purchases%20with%20a%20Classification%20Model%20with%20BigQuery%20ML/images/TASK_7.png?raw=true)
 
 ## Results
 
@@ -954,7 +954,7 @@ SELECT
 ORDER BY
   predicted_will_buy_on_return_visit DESC;
 ```
-![TASK_CHALLENGE](images\TASK_CHALLENGE.png)
+![TASK_CHALLENGE](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20III%20-%20Predicting%20Visitor%20Purchases%20with%20a%20Classification%20Model%20with%20BigQuery%20ML/images/TASK_CHALLENGE.png?raw=true)
 
 ---
 
