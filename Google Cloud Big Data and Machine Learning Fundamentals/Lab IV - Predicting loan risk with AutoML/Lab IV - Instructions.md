@@ -123,7 +123,7 @@ Veretex AI provides many metrics to evaluate the model performance. You focus on
 
 ### The Precision/Recall curve
 
-![TASK_3_1](images\TASK_3_1.png)
+![TASK_3_1](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20IV%20-%20Predicting%20loan%20risk%20with%20AutoML/images/TASK_3_1.png?raw=true)
 
 The confidence threshold determines how a ML model counts the positive cases. A higher threshold increases the precision, but decreases recall. A lower threshold decreases the precision, but increases recall. You can manually adjust the threshold to observe its impact on precision and recall and find the best tradeoff point between the two to meet your business needs.
 
@@ -131,7 +131,7 @@ The confidence threshold determines how a ML model counts the positive cases. A 
 
 A [confusion matrix](https://developers.google.com/machine-learning/glossary#confusion-matrix) tells you the percentage of examples from each class in your test set that your model predicted correctly.
 
-![TASK_3_2](images\TASK_3_2.png)
+![TASK_3_2](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20IV%20-%20Predicting%20loan%20risk%20with%20AutoML/images/TASK_3_2.png?raw=true)
 
 The confusion matrix shows that your initial model is able to predict 100% of the repay examples and 87% of the default examples in your test set correctly, which is not too bad.
 
@@ -141,7 +141,7 @@ You can improve the precentage by adding more examples (more data), engineering 
 
 In Vertex AI, feature importance is displayed through a bar chart to illustrate how each feature contributes to a prediction. The longer the bar, or the larger the numerical value associated with a feature, the more important it is.
 
-![TASK_3_3](images\TASK_3_3.png)
+![TASK_3_3](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20IV%20-%20Predicting%20loan%20risk%20with%20AutoML/images/TASK_3_3.png?raw=true)
 
 These feature importance values could be used to help you improve your model and have more confidence in its predictions. You might decide to remove the least important features next time you train a model or to combine two of the more significant features into a [feature cross](https://developers.google.com/machine-learning/glossary#feature-cross) to see if this improves model performance.
 
@@ -320,7 +320,7 @@ SML Tabular HTTP Response:
 ```
 If you use the Google Cloud Console, the following image illustrates how the same action could be performed:
 
-![TASK_5](images\TASK_5.png)
+![TASK_5](https://github.com/tmabgdata/Data-Engineering-Big-Data-and-Machine-Learning-on-GCP/blob/master/Google%20Cloud%20Big%20Data%20and%20Machine%20Learning%20Fundamentals/Lab%20IV%20-%20Predicting%20loan%20risk%20with%20AutoML/images/TASK_5.png?raw=true)
 
 You can now use Vertex AI to:
 
