@@ -193,7 +193,7 @@ In this section, use the Shared Machine Learning (SML) service to work with an e
 
 <tr>
 <td>ENDPOINT</td>
-<td>https://sml-api-vertex-kjyo252taq-uc.a.run.app/vertex/predict/tabular_classification</td>
+<td>###---###</td>
 </tr>
 
 <tr>
